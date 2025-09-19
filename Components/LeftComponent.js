@@ -6,14 +6,18 @@ const LeftComponent = () => {
     <div>
       <div className="leftcomponent flex justify-center items-center w-2xs h-[100vh] text-white">
         {/* Make this a flex container with a column direction and space between */}
-        <div className="h-[95%] w-[90%] rounded-2xl text-black m-auto bg-white flex flex-col justify-between">
+        <div className="h-[95%] p-2 w-[90%] rounded-2xl text-black m-auto bg-white flex flex-col justify-between">
           
           {/* This wrapper div contains all the content at the top */}
           <div>
             <div className="flex flex-col text-left">
-              <div className="text-2xl font-bold text-center pt-2">
-                CivicSetu
+              <div className={'flex justify-center items-center pt-2'}>
+                <img src={'./logo.png'} className="w-10 h-10" />
+                <div className="text-2xl font-bold text-center mb-2">
+                  CivicSetu
+                </div>
               </div>
+
               <div className="text-sm text-center text-[#B66AE7] font-semibold">
                 Municipal Dashboard
               </div>

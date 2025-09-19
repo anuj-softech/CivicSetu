@@ -74,7 +74,7 @@ const Main = () => {
           />
         </div>
       </div>
-      <div className="p-4 border rounded-xl shadow-md bg-white">
+      <div className="p-0 overflow-clip border rounded-xl shadow-md bg-white mt-10">
         <table className="w-full text-left border-collapse">
           <thead>
             <tr className="bg-gray-100 text-gray-700">
